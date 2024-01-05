@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+
+nav{
+    background-color: #f2f2f2;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav li{
+    float: right;
+}
+
+nav li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li:nth-child(4) a{
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+nav li:nth-child(3) a{
+    border: 1px solid blue;
+    border-radius: 5px; 
+    margin-right: 4px;
+    margin-left: 4px; 
+}
+nav li:nth-child(2) a{
+    border: 1px solid blue;
+    border-radius: 5px; 
+    margin-right: 4px;
+    margin-left: 4px; 
+}
+nav li:nth-child(1) a{
+    border: 1px solid blue;
+    border-radius: 5px; 
+    margin-right: 4px;
+    margin-left: 4px; 
+}
+
+nav li:hover a {
+    background-color: red;
+    color: #fff;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.navbar{
+    position: sticky;
+}
